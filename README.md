@@ -8,6 +8,20 @@ This project provides a Go application that automatically adjusts macOS network 
 - **Network Configuration Switching**: Toggles between manual IP configuration and DHCP depending on the connected SSID.
 - **Customizable**: Easy to adjust for different SSIDs or network settings.
 
+| iPhone SSID                      | Other SSID                      |
+| -------------------------------- | ------------------------------- |
+| Manual IP configuration          | DHCP configuration              |
+| Fixed IP, subnet mask, router IP | Dynamic IP assignment           |
+| Disables roaming                 | Allows roaming between networks |
+
+When connected to an iPhone hotspot, the network is configured with:
+
+- Manual IP address: 172.20.10.2
+- Subnet mask: 255.255.255.240
+- Router IP: 172.20.10.1
+
+This allows easy tethering to an iPhone when needed, while still permitting connectivity to other WiFi networks.
+
 ## Requirements
 
 - macOS (Tested on macOS Monterey and later)
