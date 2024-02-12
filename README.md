@@ -1,6 +1,6 @@
-# iOS Tethering Network Configurator
+# iOS Tethering Network Issue Configurator
 
-This project provides a Go application that automatically adjusts macOS network settings based on the SSID of the currently connected Wi-Fi network. Specifically, it switches the network configuration between manual IP settings and DHCP based on whether the device is connected to an iPhone's tethering SSID, like "Sanghwa's iPhone" in this case.
+This project provides a Swift application that automatically adjusts macOS network settings based on the SSID of the currently connected Wi-Fi network. Specifically, it switches the network configuration between manual IP settings and DHCP based on whether the device is connected to an iPhone's tethering SSID, like "Sanghwa's iPhone" in this case.
 
 ## Features
 
